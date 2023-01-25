@@ -263,7 +263,7 @@ main .botao a:hover {
 	}
 
 	main .botao {
-		margin: 10rem 2rem;
+		margin: 10rem 3rem;
 	}
 
 	main .botao a {
@@ -293,9 +293,13 @@ main .botao a:hover {
 }
 
 @media (max-width: 600px) {
+	main .botao {
+		margin: 10rem 1rem;
+	}
+
 	main .botao-secao a {
 		font-size: 1.2;
-		padding: 2rem 6rem;
+		padding: 2rem 5rem;
 	}
 
 	main .botao-secao {
@@ -311,5 +315,19 @@ main .botao a:hover {
 
 	.preco h3 {
 		text-align: center;
+	}
+}
+
+@media (max-width: 370px) {
+	main .botao {
+		margin: 10rem 0.5rem;
+	}
+
+	main .botao a {
+		padding: 2rem 4rem;
+	}
+
+	.compras h2 {
+		padding: 15rem 5rem;
 	}
 }
