@@ -319,8 +319,16 @@ main .botao a:hover {
 }
 
 @media (max-width: 370px) {
+	main .introducao h1 {
+		font-size: 4.5rem;
+	}
+
 	main .botao {
 		margin: 10rem 0.5rem;
+	}
+
+	main .botao-secao {
+		margin: 12rem 0rem;
 	}
 
 	main .botao a {
@@ -328,6 +336,7 @@ main .botao a:hover {
 	}
 
 	.compras h2 {
-		padding: 15rem 5rem;
+		font-size: 3rem;
+		padding: 15rem 3rem;
 	}
 }
